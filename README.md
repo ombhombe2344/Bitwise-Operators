@@ -25,14 +25,17 @@ Left Shift (<<) : Shifts the bits of an integer to the left by a specified numbe
 Right Shift (>>) : Shifts the bits of an integer to the right by a specified number of positions. The behavior for the leftmost bits depends on the sign of the integer (logical shift for unsigned integers, arithmetic shift for signed integers). This operation effectively divides the integer by 2 for each shift position. Example: 5 >> 1 (binary: 0101 >> 1) results in 2 (binary: 0010).
 
 Set and Reset:
+
 Binary Setting
 Setting a bit means altering the bit at a specific position to 1 while keeping other bits unchanged. This operation is useful in scenarios where specific flags or bits need to be activated.
 
 Binary Setting
 Resetting a bit involves changing the bit at a specific position to 0 while keeping other bits unchanged. This operation is commonly used to deactivate specific flags or bits.
 
-Algorithm
+# Algorithm
+
 Algorithm for Bitwise Operators
+
 Start
 
 Declare two integer variables: a and b.
@@ -76,6 +79,7 @@ Output the result.
 End
 
 Algorithm for Set and Reset
+
 Start
 
 Declare Variables
@@ -99,5 +103,7 @@ Compute the result by performing AND operation with the inverted one: reset = a 
 Output Results
 
 Display the result of resetting the bit: cout << reset << endl;.
+
 Display the result of setting the bit: cout << set;.
+
 End
