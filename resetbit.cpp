@@ -1,3 +1,6 @@
+//Name:om bhombe
+//PRN:23070123039
+//Aim:Implemention of Bitwise Operators Set and Reset
 #include<iostream>
 using namespace std;
 int main()
